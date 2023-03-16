@@ -1,0 +1,576 @@
+@font-face {
+    font-family:Nunito;
+    src: url(../fonts/Nunito/static/Nunito-Bold.ttf);
+}
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr 
+{
+    clear: both;
+}
+body
+{
+    font-family: "Nunito";
+}
+
+li 
+{
+    list-style: none;
+    line-height: 45px;
+    color: #808080;
+}
+img 
+{
+    width: 100%;
+}
+    
+.p-70 
+{
+    padding: 70px 0;
+}
+
+/* start home sec */
+.home 
+{
+    background-color: #f1f1f1;
+}
+
+.home .textItem
+{
+    margin-left: 50px;
+}
+.home  h1
+{
+    font-size: 76px;
+}
+.home p
+{
+    font-size: 16px;
+    color: #6c757d;
+    margin: 15px 0;
+    line-height: 1.7;
+}
+.home .btn
+{
+    background-color: #4285f4;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    transition: all .5s;
+    transform: translatey(2px);
+    margin-top: 15px;
+}
+.btn:hover
+{
+    transform: translatey(-2px);
+}
+/* end home sec */
+/* start features sec */
+.features
+{
+    text-align: center;
+}
+.features h2
+{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.features p 
+{
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    color: #808080;
+}
+.features .row 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.features .colllll
+{
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+    animation-name: riseUp;
+    animation-duration: 5s;
+    animation-iteration-count:inherit;
+    transition: all .1s;
+
+}
+
+.features .heading
+{
+    animation-name: riseUp;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    transition: all .1s;
+}
+
+a 
+{
+    text-decoration: none;
+    font-size: 16px;
+    color: #4285f4;
+}
+.features .item 
+{
+    background-color: rgb(241, 241, 241);
+    padding: 30px 10px;
+}
+.features i
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #4285f4;
+    color: #fff;
+    margin: -20px auto;
+    position: relative;
+    z-index: 1;
+
+}
+
+.features .colllll:hover
+{
+    transform: translatey(-5px);
+    color: #fff;
+}
+
+.colllll:hover .item
+{
+    background-color: #4285f4;
+    color: #fff;
+}
+.features .colllll:hover p {color: #fff;}
+.features .colllll:hover a{color: #fff;}
+.features.colllll:hover i
+{
+    background-color: #fff;
+    color: #4285f4;
+}
+/* end features sec */
+
+/* start Communicate sec */
+.Communicate .row 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Communicate .item
+{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.Communicate .item h2 
+{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.Communicate p 
+{
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.Communicate .mini 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin-top: 20px;
+
+}
+.Communicate .mini .text
+{
+    width: 80%;
+    margin: 5px 0 0 15px;
+}
+.Communicate .text  h5
+{
+    font-size: 16px; 
+    margin-bottom: 10px;
+}
+.Communicate .pic 
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/* end Communicate sec */
+/* start about sec */
+.about h2
+{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.about .row 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about .item 
+{
+    width: 50%;
+}
+
+.about p 
+{
+    color: #808080;
+    line-height: 1.9;
+    margin-top: 15px;
+}
+
+.about .info 
+{
+    padding-left: 20px;
+}
+
+.about i 
+{
+    color: #8bc34a;
+    margin-right: 10px;
+}
+
+.about .btn
+{
+    background-color: #4285f4;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    transition: all .5s;
+    transform: translatey(2px);
+    margin-top: 15px;
+}
+.btn:hover
+{
+    transform: translatey(-2px);
+}
+/* end about sec */
+/* start team sec */
+.team .members .card 
+{
+    width: 33.333%;
+    margin-bottom: 10px;
+}
+
+.team .item
+{
+    padding :15px;
+    overflow: hidden;
+    position: relative;
+}
+.team .members
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team h2 
+{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.team h3 
+{
+    font-size: 18px;
+    margin: 10px 0 ;
+}
+.team h4 
+{
+    font-size: 12px;
+    color: #4285f4;
+    margin-bottom: 10px;
+}
+
+.team p 
+{
+    line-height: 1.7;
+    color: #808080;
+}
+
+.team .info 
+{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+
+.team .item img 
+{
+    transition: all 1s ;
+    z-index: -1;
+}
+
+.team .social
+{
+    height: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    justify-content: center;
+    opacity: 0;
+    transition: all 1s;
+    background-color: #4285f4;
+}
+
+.team .social i 
+{
+    width: 30%;
+}
+
+.card:hover .social
+{   
+    opacity: 1;
+    background-color: #4285f4;
+    z-index: 10000;
+}
+
+.item:hover  .social 
+{
+    transform: translatey(0);
+}
+
+.team .item:hover img
+{
+    transform: scale(1.1);
+} 
+/* end team sec */
+/* start testimonials sec */
+.Testimonials
+{
+    background-color: #F6F6F6;
+    text-align: center;
+}
+.Testimonials h2 
+{
+    font-size: 30px;
+}
+.Testimonials img
+{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 25px 0;
+}
+
+.Testimonials p 
+{
+    color: #808080;
+    line-height: 1.7;
+    margin: 20px 0;
+}
+/* end testimonials sec */
+/* start blog sec */
+.blog .row 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog .card 
+{
+    width: 33.333%; 
+}
+
+.blog .item
+{
+    padding: 20px;
+}
+.blog h2 
+{
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.blog p 
+{
+    color: #808080;
+    line-height: 1.7;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/* end blog sec */
+
+/* start contact  */
+.form
+{
+    background-image: url(..//img/hero_1.jpg.webp);
+    background-attachment: fixed;
+    text-align: center;
+
+} 
+
+.form  
+{
+    text-align: center;
+}
+.form h2 
+{
+    margin: 25px 0;
+}
+.form .data 
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.form input 
+{
+    width: 100%;
+}
+/* end contact */
+
+/* start foot */
+
+.foot .colllll 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.foot .fa-brands
+{
+    margin: 5px 5px;
+}
+
+textarea 
+{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    right: 10px;
+}
+
+.form .btn
+{
+    background-color: #4285f4;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    transition: all .5s;
+    transform: translatey(2px);
+    margin-top: 15px;
+    float: left;
+    margin: 20px;
+}
+.btn:hover
+{
+    transform: translatey(-2px);
+}
+.fa-brands 
+{
+    color: #4285f4;
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 992px) {
+    .features .colllll {
+      width: 50%;
+    }
+    .Communicate .item
+    {
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .Communicate .mini
+    {
+        visibility: hidden;
+    }
+
+    .about .item
+    {
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .team .members .card
+    {
+        width: 100%;
+    }
+
+    .blog .card 
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* //////// */
+
+@media screen and (max-width: 500px) {
+    .features .colllll
+    {
+        width: 100%;
+    }
+    .Communicate .mini
+    {
+        visibility: hidden;
+    }
+
+    .Communicate .item
+    {
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .about .item
+    {
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .team .members .card
+    {
+        width: 100%;
+    }
+
+    .blog .card 
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
